@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background:black;
+    font-family: sans-serif playfair display;
+}
+/* ------------------------container-------------------- */
+.container{
+    color:rgb(255, 255, 255);
+    background: black;
+    margin: 30px;
+ 
+}
+
+.main-heading{
+    text-align: center;
+}
+
+.image{
+    width: 350px;
+    height: 420px;
+    padding: 3px;
+    margin: 3px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    
+}
+
+/* ------------------------content section--------------------- */
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.age{
+    text-align: center;
+    color: grey;
+}
+.main-heading{
+    color: grey;
+}
+
+/* --------------------------------para section-------------------------- */
+
+.sub-heading{
+    margin-top: 10px;
+    color: grey;
+}
+.para p{
+    color: white;
+    margin: 8px;
+    text-align:justify;
+    font-size: 15px;
+   
+}
+
+.bio-section{
+    margin-bottom: 10px;
+    color: white;
+    margin: 30px;
+}
+.bio-section h2{
+    color: grey;
+}
+
+
+.bio-section ul li{
+    margin-left: 30px;
+    padding-top: 5px;
+    text-align: justify;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+/* --------------------footer section----------------- */
+
+.sub-footer{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 50px;
+    padding: 5px;
+    font-size:18px;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    background: grey;
+    height: 50px;
+}
+.copyright p{
+    background: grey;
+    
+}
+.copyright p i{
+    background: grey;
+}
+
+/* ----------------------small screen--------------------------- */
+
+@media screen and (max-width: 767px){
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 5px;
+        align-content: space-around;
+        flex-wrap: wrap;
+
+    }
+
+    .sub-footer p{
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        margin-right: 10px;
+        margin-top: 30px;
+        padding: 5px;
+        font-size:18px;
+    }
+    .para p{
+    
+        text-align: justify;
+    }
+}
